@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-//import { submitSignup } from '../actions/actionCreators'
+
 
 function Auth(props){
   //const [signup, setSignup] = useState(false)

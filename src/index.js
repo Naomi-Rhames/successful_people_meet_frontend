@@ -7,7 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { configureStore } from '@reduxjs/toolkit';
 //import thunk from 'redux-thunk';
-import { rootReducer } from './reducers/rootReducer'
+import { rootReducer } from './redux/rootReducer'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
