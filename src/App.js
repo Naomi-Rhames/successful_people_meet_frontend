@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import { Route } from 'react-router';
 import './App.css';
 import  Auth from './components/Auth';
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-     <Route path='/signup'><Auth /></Route> 
+    <Auth />
     </div>
   );
   
